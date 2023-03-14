@@ -63,5 +63,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
 getbatteryLevel() async {
   batlevel = await batteryLevel.invokeMethod("getBattery");
+  print(batlevel);
 }
 }
